@@ -27,7 +27,7 @@ function write(tog,temp, req,res){
     if(error){
       res.send(error);
     }else{
-      res.send("Ui <<-->>")
+      res.send("Ui <<-->> <<-->>")
     }
   })
 }
